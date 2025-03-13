@@ -31,7 +31,7 @@ const App = () => {
             </ScrollView>
         </View>
     );
-}   
+}    
 
 const styles = StyleSheet.create({
     headingText: {
