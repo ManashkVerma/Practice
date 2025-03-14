@@ -14,7 +14,7 @@ const App = () => {
             <Text style = {styles.headingText}>Elevated Cards</Text>
             <ScrollView horizontal={true} style={styles.container}>
                 <View style = {[styles.card, styles.cardElevated]}>
-                    <Text>Tap</Text>
+                    <Text>Tap</Text> 
                 </View>
                 <View style = {[styles.card, styles.cardElevated]}>
                     <Text>me</Text>
@@ -31,7 +31,7 @@ const App = () => {
             </ScrollView>
         </View>
     );
-}    
+}     
 
 const styles = StyleSheet.create({
     headingText: {
